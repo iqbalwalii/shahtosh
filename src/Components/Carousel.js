@@ -6,30 +6,39 @@ import Image from "next/image";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
-
+import Link from "next/link";
 import styles from "../styles/Slider.module.css";
 
 // import required modules
-import { Pagination } from "swiper";
+import { Autoplay, Pagination, Navigation } from "swiper";
 
 export default function App() {
   return (
     <div className={styles.main}>
       <Swiper
         spaceBetween={30}
+        centeredSlides={true}
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+        }}
         pagination={{
           clickable: true,
         }}
-        modules={[Pagination]}
+        modules={[Autoplay, Pagination, Navigation]}
         className={styles.slides}
       >
         <SwiperSlide className={styles.first}>
           <div className={styles.controls}>
             <h2 className="text-light">Weaves Of Kashmir</h2>
-            <Button variant="light" className="mr-1 ">
-              Shop Now
-            </Button>
-            <Button variant="light">View All </Button>
+            <Link href="/shop">
+              <Button variant="light" className="mx-1 ">
+                Shop Now
+              </Button>
+            </Link>
+            <Link href="/catalog">
+              <Button variant="light">View All</Button>
+            </Link>
           </div>
         </SwiperSlide>
         <SwiperSlide className={styles.last}></SwiperSlide>

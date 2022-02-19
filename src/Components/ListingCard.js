@@ -2,14 +2,13 @@ import React from "react";
 import Image from "next/image";
 import listing from "../styles/ListingCard.module.css";
 import { useRouter } from "next/router";
-export default function ListingCard({ id }) {
+export default function ListingCard({ idx }) {
   const router = useRouter();
   return (
     <div
       className={listing.card}
-      onClick={() => router.push(`/products/${id}`)}
+      onClick={() => router.push(`/products/${idx}`)}
     >
-      import Image from "next/image";
       <Image
         src="/assets/images/sahal.jpg"
         height={320}

@@ -8,7 +8,7 @@ function products() {
         {[1, 2, 3, 4, 5, 6, 7].map((item, idx) => {
           return (
             <Col xs={11} sm={5} md={3} lg={3}>
-              <ListingCard id={++idx} />
+              <ListingCard idx={idx} />
             </Col>
           );
         })}
