@@ -14,6 +14,7 @@ export default function ListingCard({ idx }) {
         height={320}
         width={320}
         layout="fixed"
+        alt="image"
       />
       <div className={listing.info}>
         <h2> heading</h2>

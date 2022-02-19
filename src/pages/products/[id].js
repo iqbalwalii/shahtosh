@@ -18,6 +18,7 @@ export default function SingleView({ id }) {
               height={320}
               width={320}
               layout="fixed"
+              alt="image"
             />
           </div>
         </Col>
@@ -26,7 +27,6 @@ export default function SingleView({ id }) {
             <h2> {product?.title}</h2>
             <p>{product?.description}</p>
             <hr />
-
             <ul>
               <li>{product.color}</li>
               <li>{product.size}</li>
