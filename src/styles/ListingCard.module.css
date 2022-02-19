@@ -1,0 +1,18 @@
+.card {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card .info {
+  margin: 0.4rem auto;
+  font-weight: 400;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.card .info h2 {
+  font-size: 1rem;
+  color: #424242;
+}

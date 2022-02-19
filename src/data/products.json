@@ -1,0 +1,16 @@
+{
+  "products": [
+    {
+      "title": "New pash shawl",
+      "price": "3000",
+      "currency": "INR",
+      "images": ["sahal", "sahal2", "sahal3", "sahal4"],
+      "description": "Chantilly Lase 100% Cashmere Machinery EMB Certified Authenticity Ethical & Sustainable      Worldwide Shipping",
+      "color": "red",
+      "size": "110 x 220  (2.5 yards)",
+      "care": "Dry Clean Only",
+      "content": "Machine made Pure Pashmina",
+      "note": "This Images represent actual product though color of the image and product may slightly differ"
+    }
+  ]
+}
