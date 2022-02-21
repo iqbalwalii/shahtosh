@@ -3,7 +3,7 @@ import { Container, Navbar, Nav } from "react-bootstrap";
 
 const Navigation = () => {
   return (
-    <Navbar bg="light" expand="lg">
+    <Navbar bg="light" expand="lg" fixed="top">
       <Container fluid>
         <Navbar.Brand href="/">Royal HandWeave</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbar" />
@@ -14,9 +14,8 @@ const Navigation = () => {
             navbarScroll
           >
             <Nav.Link href="/">Home</Nav.Link>
-            <Nav.Link href="/brand">Catalog</Nav.Link>
-            <Nav.Link href="/shop">Shop</Nav.Link>
-            <Nav.Link href="/shop">About us</Nav.Link>
+            <Nav.Link href="/products">Products</Nav.Link>
+            <Nav.Link href="/about">About us</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
