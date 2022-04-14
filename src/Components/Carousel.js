@@ -41,7 +41,19 @@ export default function App() {
             </Link>
           </div>
         </SwiperSlide>
-        <SwiperSlide className={styles.last}></SwiperSlide>
+        {/* <SwiperSlide className={styles.last}>
+          <div className={styles.controls}>
+            <h2 className="text-light">Weaves Of Kashmir</h2>
+            <Link href="/shop">
+              <Button variant="light" className="mx-1 ">
+                Shop Now
+              </Button>
+            </Link>
+            <Link href="/catalog">
+              <Button variant="light">View All</Button>
+            </Link>
+          </div>
+        </SwiperSlide> */}
       </Swiper>
     </div>
   );
