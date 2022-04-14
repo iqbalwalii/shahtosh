@@ -6,6 +6,7 @@ export default function Home() {
   return (
     <>
       <Carousel />
+      <h2 className="text-center">Weaves Of Kashmir</h2>
     </>
   );
 }
