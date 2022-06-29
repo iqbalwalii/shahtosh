@@ -31,13 +31,10 @@ export default function App() {
         <SwiperSlide className={styles.first}>
           <div className={styles.controls}>
             <h2 className="text-light">Weaves Of Kashmir</h2>
-            <Link href="/shop">
+            <Link href="/products">
               <Button variant="light" className="mx-1 ">
                 Shop Now
               </Button>
-            </Link>
-            <Link href="/catalog">
-              <Button variant="light">View All</Button>
             </Link>
           </div>
         </SwiperSlide>
