@@ -19,6 +19,7 @@ export default function Home() {
                   marginTop: "2rem",
                   cursor: "pointer",
                 }}
+                key={idx}
                 onClick={() => router.push(`/products/${idx}`)}
               >
                 <Card.Img
@@ -38,7 +39,6 @@ export default function Home() {
             );
           })}
         </Row>
-        ;
       </Container>
     </>
   );

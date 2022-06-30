@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col, Button, Card } from "react-bootstrap";
 import prods from "../../data/products.json";
 import { useRouter } from "next/router";
-function products() {
+function Products() {
   const router = useRouter();
   console.log(prods);
   return (
@@ -42,4 +42,4 @@ function products() {
   );
 }
 
-export default products;
+export default Products;
